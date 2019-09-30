@@ -27,3 +27,15 @@ margin: 5px;
 cursor: pointer;
 margin: 5px;
 }
+.menuUsuario{
+    width: 400px;
+    height: auto;
+
+}
+.menuUsuario button{
+    cursor: pointer;
+    background-size: 100% 100%; 
+    width: 100px;
+    height: 100px;
+
+}
