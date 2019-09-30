@@ -28,6 +28,8 @@ cursor: pointer;
 margin: 5px;
 }
 .menuUsuario{
+    margin: auto;
+    position: relative;
     width: 400px;
     height: auto;
 

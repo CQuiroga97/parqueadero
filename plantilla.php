@@ -14,7 +14,7 @@ if(isset($_SESSION['id'])){
     ?>
     <div style="right: 10; position: absolute; top: 25px;">
     <?php
-        print "Bienvenido $nombre $apellido | <a href='/parqueadero-1/cerrarSesion.php'>Cerrar Sesion</a>";
+        print "Bienvenido $nombre $apellido | <a href='/parqueadero-1/usuario/index.php'>Inicio</a><a href='/parqueadero-1/cerrarSesion.php'>Cerrar Sesion</a>";
     ?>
     </div>
     <?php
