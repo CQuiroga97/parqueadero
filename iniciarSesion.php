@@ -1,4 +1,9 @@
-<div class="iniciarSesion">
+<?php
+include("plantilla.php");
+?>
+
+
+<div class="nuevoUsuario">
 <form action="iniciar.php" method="POST">
 <input type="id" name="id">
 <input type="password" name="pass">
