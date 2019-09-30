@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    font-family: arial;
+}
+.menu{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(209, 209, 209); 
+}
+.menu button{
+border: 1px solid rgb(99, 99, 99);
+cursor: pointer;
+margin: 5px;
+}
+.nuevoUsuario{
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid rgb(209, 209, 209); 
+}
+.nuevoUsuario input[type=submit]{
+    border: 1px solid rgb(99, 99, 99);
+cursor: pointer;
+margin: 5px;
+}
