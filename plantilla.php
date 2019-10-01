@@ -4,7 +4,15 @@ extract($_SESSION);
 ?>
 <html>
 <head>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+			
+		<script></script>
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+		<!------ Editor y bootstrap---------->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link href="/parqueadero-1/css/stylesheet.css" rel="stylesheet" type="text/css">
+<script src='/parqueadero-1/js/script.js'></script>	
 </head>
 <body>
 <div class="menu">

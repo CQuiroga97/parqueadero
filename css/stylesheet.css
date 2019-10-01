@@ -41,3 +41,23 @@ margin: 5px;
     height: 100px;
 
 }
+.slot{
+    width: 200px;
+    cursor: pointer;
+    height: 300px;
+    background-color: gray;
+    display: inline-block;
+    margin: 5px;
+}
+.ocuparSlot{
+    position: relative;
+    border-radius: 50% 50%;
+    width: 500px;
+    height: 500px;
+    border: 5px solid rgb(99, 99, 99);
+}
+.textSlot{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
