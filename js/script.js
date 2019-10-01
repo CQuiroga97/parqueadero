@@ -35,3 +35,23 @@ function ocuparLugar(slot, parqueadero){
             }
         });
 }
+function despejarSlot(placa, slot, parqueadero){
+    if (confirm("Entregar vehiculo "+placa)) {
+        var data = new FormData();
+        data.append("slot", slot);
+        data.append("placa", placa);
+            $.ajax({
+                type: 'POST',
+                url: 'despejarSlot.php',
+                contentType: false,
+                processData: false,
+                data: data,
+                success: function(datos) {
+                    alert(datos);
+                   mostrarSlots(parqueadero);
+    
+                }
+            });
+    }
+    
+}

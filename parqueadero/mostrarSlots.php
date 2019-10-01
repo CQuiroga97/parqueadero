@@ -9,10 +9,15 @@ while($datos = $st->fetch()){
     print "<div class='slot'";
     
     if($estado == 1){
-        print ">Ocupado";
         $sql = "select * from ticketEntrada where slot = $id AND estado = 1";
         $st2 = $con->query($sql);
-        print "<br>Vehiculo: ".$st2->fetch()['vehiculo'];
+$placa = $st2->fetch()['vehiculo'];
+        ?>
+        onclick="despejarSlot('<?php print $placa?>', <?php print $id?>, <?php print $id2?>); "
+        <?php
+        print ">Ocupado";
+        
+        print "<br>Vehiculo: $placa";
     }else{
         print "onclick='ocuparLugar($id, $id2)'> Disponible";
         $sql = "select * from tipo where id = $tipo";
